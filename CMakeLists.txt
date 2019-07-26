@@ -7,3 +7,4 @@ project ("qserver")
 
 # Include sub-projects.
 add_subdirectory ("qserver")
+add_subdirectory("qclient")

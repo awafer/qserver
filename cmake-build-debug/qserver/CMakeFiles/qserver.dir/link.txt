@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/qserver.dir/qserver.c.o  -o qserver -lpthread 

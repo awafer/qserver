@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/vs2017/qserver/qserver/qserver.c
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+errno.h
+-
+pthread.h
+-
+syslog.h
+-
+unistd.h
+-
+
