@@ -1,4 +1,12 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/vs2017/qserver
--- Configuring done
--- Generating done
--- Build files have been written to: /mnt/d/vs2017/qserver/cmake-build-debug
+CMake Error at CMakeLists.txt:11 (add_subdirectory):
+  The source directory
+
+    /mnt/d/vs2017/qserver/qclientpp
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles/CMakeError.log".
