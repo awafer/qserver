@@ -136,6 +136,19 @@ qclient/fast:
 	$(MAKE) -f qclient/CMakeFiles/qclient.dir/build.make qclient/CMakeFiles/qclient.dir/build
 .PHONY : qclient/fast
 
+#=============================================================================
+# Target rules for targets named qclientpp
+
+# Build rule for target.
+qclientpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qclientpp
+.PHONY : qclientpp
+
+# fast build rule for target.
+qclientpp/fast:
+	$(MAKE) -f qclientpp/CMakeFiles/qclientpp.dir/build.make qclientpp/CMakeFiles/qclientpp.dir/build
+.PHONY : qclientpp/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +159,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... qserver"
 	@echo "... qclient"
+	@echo "... qclientpp"
 .PHONY : help
 
 

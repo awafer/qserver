@@ -6,3 +6,6 @@
 /mnt/d/vs2017/qserver/cmake-build-debug/qclient/CMakeFiles/rebuild_cache.dir
 /mnt/d/vs2017/qserver/cmake-build-debug/qclient/CMakeFiles/qclient.dir
 /mnt/d/vs2017/qserver/cmake-build-debug/qclient/CMakeFiles/edit_cache.dir
+/mnt/d/vs2017/qserver/cmake-build-debug/qclientpp/CMakeFiles/rebuild_cache.dir
+/mnt/d/vs2017/qserver/cmake-build-debug/qclientpp/CMakeFiles/qclientpp.dir
+/mnt/d/vs2017/qserver/cmake-build-debug/qclientpp/CMakeFiles/edit_cache.dir

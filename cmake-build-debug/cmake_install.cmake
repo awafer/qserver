@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/mnt/d/vs2017/qserver/cmake-build-debug/qserver/cmake_install.cmake")
   include("/mnt/d/vs2017/qserver/cmake-build-debug/qclient/cmake_install.cmake")
+  include("/mnt/d/vs2017/qserver/cmake-build-debug/qclientpp/cmake_install.cmake")
 
 endif()
 

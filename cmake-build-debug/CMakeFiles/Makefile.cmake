@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "../qclient/CMakeLists.txt"
+  "../qclientpp/CMakeLists.txt"
   "../qserver/CMakeLists.txt"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
@@ -51,10 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "qserver/CMakeFiles/CMakeDirectoryInformation.cmake"
   "qclient/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "qclientpp/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "qserver/CMakeFiles/qserver.dir/DependInfo.cmake"
   "qclient/CMakeFiles/qclient.dir/DependInfo.cmake"
+  "qclientpp/CMakeFiles/qclientpp.dir/DependInfo.cmake"
   )

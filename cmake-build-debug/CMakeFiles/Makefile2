@@ -84,7 +84,7 @@ qserver/preinstall:
 qserver/CMakeFiles/qserver.dir/all:
 	$(MAKE) -f qserver/CMakeFiles/qserver.dir/build.make qserver/CMakeFiles/qserver.dir/depend
 	$(MAKE) -f qserver/CMakeFiles/qserver.dir/build.make qserver/CMakeFiles/qserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target qserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target qserver"
 .PHONY : qserver/CMakeFiles/qserver.dir/all
 
 # Include target in all.
@@ -166,6 +166,61 @@ qclient/CMakeFiles/qclient.dir/clean:
 
 # clean rule for target.
 clean: qclient/CMakeFiles/qclient.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory qclientpp
+
+# Convenience name for "all" pass in the directory.
+qclientpp/all: qclientpp/CMakeFiles/qclientpp.dir/all
+
+.PHONY : qclientpp/all
+
+# Convenience name for "clean" pass in the directory.
+qclientpp/clean: qclientpp/CMakeFiles/qclientpp.dir/clean
+
+.PHONY : qclientpp/clean
+
+# Convenience name for "preinstall" pass in the directory.
+qclientpp/preinstall:
+
+.PHONY : qclientpp/preinstall
+
+#=============================================================================
+# Target rules for target qclientpp/CMakeFiles/qclientpp.dir
+
+# All Build rule for target.
+qclientpp/CMakeFiles/qclientpp.dir/all:
+	$(MAKE) -f qclientpp/CMakeFiles/qclientpp.dir/build.make qclientpp/CMakeFiles/qclientpp.dir/depend
+	$(MAKE) -f qclientpp/CMakeFiles/qclientpp.dir/build.make qclientpp/CMakeFiles/qclientpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target qclientpp"
+.PHONY : qclientpp/CMakeFiles/qclientpp.dir/all
+
+# Include target in all.
+all: qclientpp/CMakeFiles/qclientpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+qclientpp/CMakeFiles/qclientpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 qclientpp/CMakeFiles/qclientpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/vs2017/qserver/cmake-build-debug/CMakeFiles 0
+.PHONY : qclientpp/CMakeFiles/qclientpp.dir/rule
+
+# Convenience name for target.
+qclientpp: qclientpp/CMakeFiles/qclientpp.dir/rule
+
+.PHONY : qclientpp
+
+# clean rule for target.
+qclientpp/CMakeFiles/qclientpp.dir/clean:
+	$(MAKE) -f qclientpp/CMakeFiles/qclientpp.dir/build.make qclientpp/CMakeFiles/qclientpp.dir/clean
+.PHONY : qclientpp/CMakeFiles/qclientpp.dir/clean
+
+# clean rule for target.
+clean: qclientpp/CMakeFiles/qclientpp.dir/clean
 
 .PHONY : clean
 
