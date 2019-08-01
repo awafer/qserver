@@ -11,6 +11,12 @@ int main(int argc, char ** argv)
         fprintf(stderr, "Usage: client hostname\n");
         exit(1);
     }
+
+    struct addrinfo hints;
+    memset(&hints, 0, sizeof(struct addrinfo));
+    hints.ai_family = AF_UNSPEC;
+    hints.ai_socktype = SOCK_STREAM;
+    
     return 0;
 }
 
